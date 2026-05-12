@@ -96,9 +96,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: fb8a0115d8814bd49b4609e9566545e8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: fb8a0115d8814bd49b4609e9566545e8, type: 3}
       propertyPath: m_Name
       value: Glasses_Cat
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fb8a0115d8814bd49b4609e9566545e8, type: 3}
+      propertyPath: m_TagString
+      value: cat
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -158,9 +166,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6b3199884720a1f429171a2626184a1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6b3199884720a1f429171a2626184a1e, type: 3}
       propertyPath: m_Name
       value: Glasses_Mask
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6b3199884720a1f429171a2626184a1e, type: 3}
+      propertyPath: m_TagString
+      value: mask
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -220,9 +236,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 7034b87c9fad3ea4f8ae0098c5dd0c99, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 7034b87c9fad3ea4f8ae0098c5dd0c99, type: 3}
       propertyPath: m_Name
       value: Glasses_Stars
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7034b87c9fad3ea4f8ae0098c5dd0c99, type: 3}
+      propertyPath: m_TagString
+      value: stars
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

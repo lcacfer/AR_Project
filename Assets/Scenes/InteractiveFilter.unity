@@ -145,6 +145,7 @@ GameObject:
   - component: {fileID: 221277500}
   - component: {fileID: 221277499}
   - component: {fileID: 221277502}
+  - component: {fileID: 221277503}
   m_Layer: 0
   m_Name: Visual Scripts
   m_TagString: Untagged
@@ -190,6 +191,8 @@ MonoBehaviour:
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material1","value":{"$content":6,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material2","value":{"$content":7,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"material3","value":{"$content":8,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"currentGlassesTag","value":null,"typeHandle":{"Identification":"System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentMaterial","value":{"$content":9,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Material,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 637289685}
@@ -201,6 +204,7 @@ MonoBehaviour:
     - {fileID: 2100000, guid: c122bcf8f7afba14abdf98673ea25168, type: 2}
     - {fileID: 2100000, guid: fecf62bcb7bab034892a0baecd8488a3, type: 2}
     - {fileID: 2100000, guid: cb9e2151a30aabe4fa577c564b5c6a50, type: 2}
+    - {fileID: 5561349426305759274, guid: 0a840f06779b2ea45a882b3c57b12fb7, type: 3}
 --- !u!4 &221277501
 Transform:
   m_ObjectHideFlags: 0
@@ -232,6 +236,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 0c764116f2250d748a26e30ea507a4de, type: 2}
+--- !u!114 &221277503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221277498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 68bf53ebe17ead64cbb8be895428b89a, type: 2}
 --- !u!1001 &264683506
 PrefabInstance:
   m_ObjectHideFlags: 0

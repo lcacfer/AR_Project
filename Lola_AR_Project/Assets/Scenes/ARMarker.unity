@@ -155,6 +155,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &392233923 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 942627301633815611, guid: 398ee1c84048d68479a4ca31600e05d2, type: 3}
+  m_PrefabInstance: {fileID: 1227956151}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,6 +340,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4127419042574110766, guid: 1a07e1c59d1ee714a96f2b1c8f3e17a2, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4127419042574110766, guid: 1a07e1c59d1ee714a96f2b1c8f3e17a2, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -347,6 +366,7 @@ GameObject:
   - component: {fileID: 626013934}
   - component: {fileID: 626013937}
   - component: {fileID: 626013938}
+  - component: {fileID: 626013939}
   m_Layer: 0
   m_Name: VisualScripts
   m_TagString: Untagged
@@ -388,11 +408,14 @@ MonoBehaviour:
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"modelObject","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"buttonPopup","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
       UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"canvasPopup","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"buttonAudio","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.UI.Button,
+      UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"audioSource","value":null,"typeHandle":{"Identification":"UnityEngine.AudioSource,
+      UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 122769393}
     - {fileID: 304120432}
     - {fileID: 41855929}
+    - {fileID: 392233923}
 --- !u!4 &626013936
 Transform:
   m_ObjectHideFlags: 0
@@ -440,6 +463,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 63474ee8bc693a1409f8904e499a93ef, type: 2}
+--- !u!114 &626013939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626013933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 162f3a82ef4a596479542862157bf155, type: 2}
 --- !u!1 &1167446570
 GameObject:
   m_ObjectHideFlags: 0
@@ -536,6 +575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ButtonPopup
       objectReference: {fileID: 0}
+    - target: {fileID: 3118131162248045488, guid: 398ee1c84048d68479a4ca31600e05d2, type: 3}
+      propertyPath: m_text
+      value: Audio
+      objectReference: {fileID: 0}
     - target: {fileID: 3532599376157485563, guid: 398ee1c84048d68479a4ca31600e05d2, type: 3}
       propertyPath: m_fontSize
       value: 40
@@ -555,6 +598,10 @@ PrefabInstance:
     - target: {fileID: 4739789203418775386, guid: 398ee1c84048d68479a4ca31600e05d2, type: 3}
       propertyPath: m_fontSizeBase
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 4846490202263123579, guid: 398ee1c84048d68479a4ca31600e05d2, type: 3}
+      propertyPath: m_Name
+      value: ButtonAudio
       objectReference: {fileID: 0}
     - target: {fileID: 5861492708049305318, guid: 398ee1c84048d68479a4ca31600e05d2, type: 3}
       propertyPath: m_Name

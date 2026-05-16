@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 1792305661406507290}
   m_Layer: 0
   m_Name: FuseboxMesh
-  m_TagString: Untagged
+  m_TagString: modelObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
